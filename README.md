@@ -38,7 +38,7 @@ Nesta etapa, o corpus de comentários negativos é coletado, processado e transf
 
 - **Term Frequency-Inverse Document Frequency (TF-IDF):** Utilizado para atribuir pesos às palavras de acordo com sua relevância – dentro de cada documento e em relação ao corpus inteiro.
 - **Bag-of-Words (BoW):** Utilizado para contar a ocorrência de palavras no corpus.
-- As palavras mais frequentes são extraídas e analisadas para melhor compreensão da distribuição dos termos e inserção na etapa anterior de remoção de stop-words.
+- As palavras mais frequentes são extraídas e analisadas para melhor compreensão da distribuição dos termos (e possível inserção na etapa anterior de remoção de stop-words).
 
 ## Unsupervised Machine Learning
 
