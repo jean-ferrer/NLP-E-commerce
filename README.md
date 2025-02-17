@@ -17,6 +17,7 @@ https://public.tableau.com/app/profile/jeanferrer/viz/TpicosLatentDirichletAlloc
 ### Como Utilizar
 
 - Clone este repositório.
+- Baixe o data set `bw2.csv` do Kaggle: https://www.kaggle.com/code/abnerfreitas/nlp-buscape-data-ptbr-sentiment-analysis/input
 - Crie e ative um ambiente virtual.
 - Instale as dependências: `pip install -r requirements.txt`.
 
