@@ -4,13 +4,15 @@ Este projeto aplica técnicas de Natural Language Processing (Processamento de L
 
 ### Visualizações Interativas
 
-As visualizações interativas do projeto podem ser acessadas nos seguintes links:  
-
-Clusters K-Means de Reviews Negativos de E-Commerce  
+*Clusters K-Means de Reviews Negativos de E-Commerce*  
 https://public.tableau.com/app/profile/jeanferrer/viz/ClustersK-MeansdeReviewsNegativosdeE-Commerce/K-Means
 
-Tópicos Latent Dirichlet Allocation (LDA) de Reviews Negativos de E-Commerce  
+![K-Means](imgs/KMeans.png)
+
+*Tópicos Latent Dirichlet Allocation (LDA) de Reviews Negativos de E-Commerce*  
 https://public.tableau.com/app/profile/jeanferrer/viz/TpicosLatentDirichletAllocationLDAdeReviewsNegativosdeE-Commerce/LDA
+
+![LDA](imgs/LDA.png)
 
 ### Como Utilizar
 
