@@ -2,6 +2,24 @@
 
 Este projeto aplica técnicas de Natural Language Processing (Processamento de Linguagem Natural) e Unsupervised Machine Learning (Aprendizado de Máquina Não Supervisionado) para identificar padrões em comentários negativos de plataformas de vendas brasileiras, agrupando textos semelhantes e extraindo tópicos relevantes.
 
+### Visualizações Interativas
+
+As visualizações interativas do projeto podem ser acessadas nos seguintes links:  
+
+Clusters K-Means de Reviews Negativos de E-Commerce  
+https://public.tableau.com/app/profile/jeanferrer/viz/ClustersK-MeansdeReviewsNegativosdeE-Commerce/K-Means
+
+Tópicos Latent Dirichlet Allocation (LDA) de Reviews Negativos de E-Commerce  
+https://public.tableau.com/app/profile/jeanferrer/viz/TpicosLatentDirichletAllocationLDAdeReviewsNegativosdeE-Commerce/LDA
+
+### Como Utilizar
+
+- Clone este repositório.
+- Crie e ative um ambiente virtual.
+- Instale as dependências: `pip install -r requirements.txt`.
+
+O projeto foi desenvolvido com `Python 3.12.4`.
+
 ## Extração e Representação do Corpus
 
 Nesta etapa, o corpus de comentários negativos é coletado, processado e transformado em uma representação numérica para aplicação de algoritmos de aprendizado de máquina.
@@ -51,6 +69,6 @@ Os resultados das análises foram exportados para um arquivo CSV contendo:
 A visualização foi realizada no **Tableau**:
 
 - **K-Means:** Gráfico 2D para representar os clusters.
-- **LDA:** Gráfico 2D com profundidade, onde a coordenada `z` foi convertida em categorias (bucketizing) para melhor interpretação dos tópicos.
+- **LDA:** Gráfico 2D com profundidade, no qual a coordenada `z` foi convertida em categorias (bucketizing) para melhor interpretação dos tópicos.
 
 Essa abordagem permite uma análise interativa dos clusters e tópicos, facilitando a extração de insights sobre os principais problemas relatados pelos consumidores.
