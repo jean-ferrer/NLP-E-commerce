@@ -49,6 +49,8 @@ Nesta etapa, são aplicadas técnicas de aprendizado de máquina não supervisio
 - O algoritmo **K-Means** é treinado sobre a matriz TF-IDF para agrupar comentários em 3 clusters distintos.
 - Um novo comentário pode ser classificado dentro de um desses clusters após passar pelo mesmo processo de vetorização.
 - A visualização dos clusters é feita através de **redução de dimensionalidade com Principal Component Analysis (PCA)**, para um espaço bidimensional.
+<br>
+
 ![K-Means2D](imgs/KMeans2D.png)
 
 ### Extração de Tópicos com Latent Dirichlet Allocation (LDA)
@@ -56,6 +58,8 @@ Nesta etapa, são aplicadas técnicas de aprendizado de máquina não supervisio
 - O algoritmo **Latent Dirichlet Allocation (LDA)** é treinado sobre a representação Bag-of-Words (BoW) para definir distribuições de palavras associadas a diferentes tópicos.
 - Cada comentário recebe uma distribuição de probabilidade sobre os tópicos extraídos.
 - A visualização dos clusters é feita através de **redução de dimensionalidade com t-Distributed Stochastic Neighbor embedding (t-SNE)**, para um espaço tridimensional.
+<br>
+
 ![LDA3D](imgs/LDA3D.png)
 
 ## Visualização dos Resultados no Tableau
